@@ -9,7 +9,7 @@ These are reproduction steps for this issue: https://github.com/prisma/prisma/is
 Migration succeeds but Prisma still appears to be running `npm install` and creating an npm lockfile instead of editing the existing pnpm lockfile. This will also likely fail when pnpm specific dependency protocols are used like `workspace:` (not demonstrated in these repro steps but can provide further repro steps if needed).
 
 ```
-jkim@dev-jkim prisma-issue-5340 (master) $ DATABASE_URL=mysql://root:pintastic@127.0.0.1:3306/dev pnpx prisma migrate dev --name init
+jkim@dev-jkim prisma-issue-5340 (master) $ DATABASE_URL=<redacted> pnpx prisma migrate dev --name init
 Prisma schema loaded from prisma/schema.prisma
 Datasource "db": MySQL database "dev" at "127.0.0.1:3306"
 
