@@ -57,16 +57,15 @@ OS: Ubuntu
 
 Prisma version:
 ```
-jkim@dev-jkim prisma-issue-5340 $ pnpx prisma --version
-Environment variables loaded from .env
-prisma               : 2.26.0
-@prisma/client       : 2.26.0
+jkim@dev-jkim prisma-issue-5340 (master *) $ pnpx prisma --version
+prisma               : 2.27.0-integration-fix-sdk-pnpm.2
+@prisma/client       : 2.27.0-integration-fix-sdk-pnpm.2
 Current platform     : debian-openssl-1.1.x
-Query Engine         : query-engine 9b816b3aa13cc270074f172f30d6eda8a8ce867d (at node_modules/@prisma/engines/query-engine-debian-openssl-1.1.x)
-Migration Engine     : migration-engine-cli 9b816b3aa13cc270074f172f30d6eda8a8ce867d (at node_modules/@prisma/engines/migration-engine-debian-openssl-1.1.x)
-Introspection Engine : introspection-core 9b816b3aa13cc270074f172f30d6eda8a8ce867d (at node_modules/@prisma/engines/introspection-engine-debian-openssl-1.1.x)
-Format Binary        : prisma-fmt 9b816b3aa13cc270074f172f30d6eda8a8ce867d (at node_modules/@prisma/engines/prisma-fmt-debian-openssl-1.1.x)
-Default Engines Hash : 9b816b3aa13cc270074f172f30d6eda8a8ce867d
+Query Engine         : query-engine 6f7f670adbb07fd4b8862c6d2bcb8c4703065918 (at node_modules/@prisma/engines/query-engine-debian-openssl-1.1.x)
+Migration Engine     : migration-engine-cli 6f7f670adbb07fd4b8862c6d2bcb8c4703065918 (at node_modules/@prisma/engines/migration-engine-debian-openssl-1.1.x)
+Introspection Engine : introspection-core 6f7f670adbb07fd4b8862c6d2bcb8c4703065918 (at node_modules/@prisma/engines/introspection-engine-debian-openssl-1.1.x)
+Format Binary        : prisma-fmt 6f7f670adbb07fd4b8862c6d2bcb8c4703065918 (at node_modules/@prisma/engines/prisma-fmt-debian-openssl-1.1.x)
+Default Engines Hash : 6f7f670adbb07fd4b8862c6d2bcb8c4703065918
 Studio               : 0.408.0
 ```
 
