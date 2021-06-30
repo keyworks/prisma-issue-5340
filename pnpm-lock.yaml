@@ -1,0 +1,21 @@
+devDependencies:
+  prisma: 2.27.0-integration-fix-sdk-pnpm.1
+lockfileVersion: 5.1
+packages:
+  /@prisma/engines/2.27.0-2.6f7f670adbb07fd4b8862c6d2bcb8c4703065918:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha1-5hbc6lB8YtjOBv+ltTqbxLDrnm4=
+  /prisma/2.27.0-integration-fix-sdk-pnpm.1:
+    dependencies:
+      '@prisma/engines': 2.27.0-2.6f7f670adbb07fd4b8862c6d2bcb8c4703065918
+    dev: true
+    engines:
+      node: '>=12.2'
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha1-Ih2zzJuMABA6RlDFNmL6J3Xx9i8=
+specifiers:
+  prisma: 2.27.0-integration-fix-sdk-pnpm.1

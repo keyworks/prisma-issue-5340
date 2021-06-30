@@ -1,0 +1,14 @@
+{
+  "name": "prisma-issue-5340",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "2.27.0-integration-fix-sdk-pnpm.1"
+  }
+}
