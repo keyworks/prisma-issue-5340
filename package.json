@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prisma": "2.27.0-integration-fix-sdk-pnpm.1"
+    "prisma": "^2.27.0-integration-fix-sdk-pnpm.1"
   }
 }
